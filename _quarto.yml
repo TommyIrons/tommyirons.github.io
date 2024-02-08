@@ -3,10 +3,13 @@ project:
   output-dir: docs
 
 website:
-  title: "tommyirons.github.io"
+  title: "Tommy's Blog"
   navbar:
-    right:
+    left: 
       - about.qmd
+      - text: "Blog"
+        file: index.qmd
+    right:
       - icon: github
         href: https://github.com/
       - icon: twitter
